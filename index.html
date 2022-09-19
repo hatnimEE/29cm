@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Stratbucks">
+    <meta property="og:title" content="Stratbucks Coffee Korea">
+    <meta property="og:description" content="위 사이트는 포트폴리오용 클론 코딩 입니다.">
+    <meta property="og:type" content="./images/stratbucks_seo.jpg">
+    <title>29cm</title>
+    <link rel="stylesheet" href="./favicon.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+    <div class="top-popup">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p>본 페이지는 <span>포트폴리오용</span> 입니다.</p>
+                    <p>카카오페이 8/20만원 이상 결제 시 4천/1만 즉시할인</p>
+                </div>
+                <div class="swiper-slide">
+                    <p>본 페이지는 <span>포트폴리오용</span> 페이지 입니다.</p>
+                    <p>카카오페이 8/20만원 이상 결제 시 4천/1만 즉시할인</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <header class="header">
+        <div class="header_inner_01">
+            <h1 class="logo"><a href="#">29cm</a></h1>
+            <ul class="info-menu">
+                <li><a href="#"><img src="images/my_page.gif"> MY PAGE</a></li>
+                <li><a href="#"><img src="images/my_like.gif">MY LIKE</a></li>
+                <li><a href="#"><img src="images/shopping_bag.gif">SHOPPING BAG</a></li>
+                <li><a href="#"><img src="images/log_in.gif">LOGIN</a></li>
+            </ul>
+        </div>
+        <div class="header_inner_02">
+            <ul class="main-menu">
+                <li><a href="#">Special-Order</a></li>
+                <li><a href="#">Showcase</a></li>
+                <li><a href="#">PT</a></li>
+                <li><a href="#">Welove</a></li>
+            </ul>
+            <div class="search">
+                <a class="search_image" href="#"><img src="./images/search.png" alt=""></a>
+            </div>
+        </div>
+        <div class="header_inner_03">
+            <ul class="product-menu">
+                <li class="item">
+                    <div class="item__name">
+                        <a href="#">WOMEN</a>
+                    </div>
+                    <div class="item__content">
+                        <ul class="item__content__inner">
+                            <li>
+                                <h4>의류 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>가방 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>신발 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>악세서리 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">
+                        <a href="#">MEN</a>
+                    </div>
+                    <div class="item__content">
+                        <ul class="item__content__inner">
+                            <li>
+                                <h4>의류 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>가방 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>신발 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>악세서리 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">
+                        <a href="#">HOME</a>
+                    </div>
+                    <div class="item__content">
+                        <ul class="item__content__inner">
+                            <li>
+                                <h4>의류 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>가방 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>신발 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>악세서리 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">
+                        <a href="#">TECH</a>
+                    </div>
+                    <div class="item__content">
+                        <ul class="item__content__inner">
+                            <li>
+                                <h4>의류 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>가방 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>신발 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>악세서리 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">
+                        <a href="#">BEAUTY</a>
+                    </div>
+                    <div class="item__content">
+                        <ul class="item__content__inner">
+                            <li>
+                                <h4>의류 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>가방 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>신발 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>악세서리 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">
+                        <a href="#">CULTURE</a>
+                    </div>
+                    <div class="item__content">
+                        <ul class="item__content__inner">
+                            <li>
+                                <h4>의류 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>가방 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>신발 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>악세서리 ></h4>
+                                <ul>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">EXCLUSIVE</a></li>
+                                    <li><a href="#">하이엔드</a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                    <li><a href="#">바지</a></li>
+                                    <li><a href="#">액티브웨어</a></li>
+                                    <li><a href="#">아우터</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name italic">
+                        <a href="#">EVENT</a>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name italic">
+                        <a href="#">BRAND</a>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name italic">
+                        <a href="#">LOOKBOOK</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="full-search-section-wrap">
+            <div class="full-search-section">
+                <div class="full-search-section__01">
+                    <div class="full-search-close">
+                        <a href="#">
+                            <img src="images/search-close.png" alt="">
+                        </a>
+                    </div>
+                    <input class="full-search" type="text" name="" id="" placeholder="Search">
+                    <div class="full-search-image">
+                        <a href="#">
+                            <img src="images/search.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="full-search-section__02">
+                    <div class="full-search-popular">
+                        <h4>인기검색어</h4>
+                        <ul>
+                            <li><a href="#">프라이탁</a></li>
+                            <li><a href="#">원피스</a></li>
+                            <li><a href="#">리퍼브</a></li>
+                            <li><a href="#">수영복</a></li>
+                            <li><a href="#">에코백</a></li>
+                            <li><a href="#">파우치</a></li>
+                            <li><a href="#">백팩</a></li>
+                            <li><a href="#">나이키</a></li>
+                            <li><a href="#">모자</a></li>
+                            <li><a href="#">가방</a></li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </header>
+    <section class="contents">
+        <div class="content__main-wrap">
+            <ul class="content__main fade-in">
+                <li>
+                    <a href="#">
+                        <img src="images/main_01.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/main_02.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/main_03.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/main_04.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/main_05.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/main_06.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content__sub-wrap">
+            <ul class="content__sub fade-in">
+                <li class="content__sub__feed feed__banner">
+                    <a href="#">
+                        <img src="images/sub_01.jpg" alt="">
+                    </a>
+                </li>
+                <li class="content__sub__feed feed__item">
+                    <a href="#"" class="feed__item__image">
+                        <img src="images/sub_03.jpg" alt="">
+                    </a>
+                    <div class="feed__item__text">
+                        <h4>기다렸던 브랜드</h4>
+                        <p>기다렸던 탑텐, 앤드지, 폴햄의 브랜드 소식을 당신에게 가장 먼저 전해요. 
+                            나만 알고 싶은 브랜드들로 구성된 브랜드 하이라이트를 만나보세요.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="content__sub fade-in">
+                <li class="content__sub__feed feed__banner">
+                    <a href="#" class="feed__item__image">
+                        <img src="images/sub_02.jpg" alt="">
+                    </a>
+                </li>
+                <li class="content__sub__feed feed__item">
+                    <a href="#" class="feed__item__image">
+                        <img src="images/sub_04.jpg" alt="">
+                    </a>
+                    <div class="feed__item__text">
+                        <h4>블루브릭 브랜드 데이</h4>
+                        <p>자연스러운 이지-시크 무드를 지향하는 브랜드 블루브릭의 브랜드 데이 소식이예요. 
+                            합리적인 가격으로 만나보세요!</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+    </section>
+
+</body>
+</html>
